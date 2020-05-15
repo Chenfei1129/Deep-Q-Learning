@@ -23,7 +23,11 @@ class ChooseAction():
 Gradient Descend
 input: y,Q,phi,a,theta
 output: new theta
-Take the derivative of (y-Q(phi, a, theta))^2 with respect to theta
+Take the derivative of (y-Q(phi, a, theta))^2 with respect to theta, which is the E(r+gamma*max(Q(s', a', newTheta))
+-Q(s, a, theta)*gradientQ)
 '''
-
+'''
+Question: Include theta as a parameter when we need Q?
+          How to take the gradient?
+'''
 
