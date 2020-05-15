@@ -19,6 +19,11 @@ class ChooseAction():
 		greedyAction = max(Q_value, key = Q_value.get)
 		action = self.e_greedy(self.actionSpace, greedyAction, e)
 		return action
-
+'''
+Gradient Descend
+input: y,Q,phi,a,theta
+output: new theta
+Take the derivative of (y-Q(phi, a, theta))^2 with respect to theta
+'''
 
 
