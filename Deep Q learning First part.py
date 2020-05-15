@@ -27,7 +27,8 @@ Take the derivative of (y-Q(phi, a, theta))^2 with respect to theta, which is th
 -Q(s, a, theta)*gradientQ)
 '''
 '''
-Question: Include theta as a parameter when we need Q?
+Question: How to initialize and store information in the buffer?
+          Include theta as a parameter when we need Q?
           How to take the gradient?
 '''
 
